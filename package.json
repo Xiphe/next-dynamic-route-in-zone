@@ -1,0 +1,19 @@
+{
+  "name": "next-dynamic-route-in-zone",
+  "version": "0.0.0-development",
+  "description": "example of a next app running on sub-path (zone)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hannes Diercks <node@xiphe.net> (https://xiphe.net/)",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "4.17.1",
+    "http-proxy-middleware": "0.19.1",
+    "next": "8.1.1-canary.43",
+    "react": "16.8.6",
+    "react-dom": "16.8.6"
+  }
+}
